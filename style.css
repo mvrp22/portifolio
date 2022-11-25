@@ -1,0 +1,161 @@
+body {
+    background-color: #e9e9e9;
+    @font-face {
+        font-family:Epiloque-black ;
+        src: url(Epiloque-black.tff);
+        text-element {}
+    }
+}
+body{ margin: 0;}
+h1, h2, h3 { margin: 0 ;
+vertical-align: middle;}
+
+h1 {
+    
+    text-align: center;
+    color: rgb(26, 25, 25);
+    font-size: 72px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+h2 { 
+
+    text-align: center;
+    color: rgb(26, 25, 25);
+    font-size: 30px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.barra {
+    position: fixed;
+    height: 35px;
+    background-color: #e9e9e9;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 75px;
+    display: block;
+}
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#home { color: rgb(41, 40, 40);
+    font-size: 20px;
+
+}
+
+#mim { color: rgb(41, 40, 40);
+    font-size: 20px;
+
+}
+
+#ski { color: rgb(41, 40, 40);
+    font-size: 20px;
+;
+}
+
+#home, #mim, #ski {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    transition: 0.5s;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#mim:hover {
+    color: #a8a8a8;
+}
+#home:hover {
+    color: #a8a8a8;
+}
+#ski:hover {
+    color: #a8a8a8;
+}
+
+
+#wpp {filter: brightness(100); filter:contrast(0);} 
+#twitter {filter: brightness(100); filter:contrast(0);}
+#insta {filter: brightness(100); filter:contrast(0);}
+#linkedin {filter: brightness(100); filter:contrast(0);}
+#email {filter: brightness(100); filter:contrast(0);}
+
+#wpp:hover{filter: none; transition: filter 0.25s linear}
+#twitter:hover{filter: none; transition: filter 0.25s linear}
+#insta:hover{filter: none; transition: filter 0.25s linear}
+#linkedin:hover{filter: none; transition: filter 0.25s linear}
+#email:hover{filter: none; transition: filter 0.25s linear}
+
+.redesocial {
+    position: fixed;
+    height: 85px;
+    background-color: #e9e9e9;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 75px;
+display: block;}
+
+#wpp, #twitter, #insta, #linkedin, #email {
+    margin: 10px;
+}
+
+#vertical {
+    display: table-cell;
+    vertical-align: middle;
+    height: 650px;
+    width: 50%; 
+    text-align: center; 
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#inicio {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin: 50px 100px;
+    padding: 10px 35px;
+    border: 2px solid rgb(51, 51, 51);
+    font-family: 'Epilogue', sans-serif;
+    width: 100px;
+    align-items: center;
+    
+}
+
+#inicio:hover{
+    color: #e9e9e9;
+    background-color: rgb(25, 25, 25);
+    transition: 0.5s ease;
+   
+    
+}
+
+#sobremim {
+   align-items: center;
+   vertical-align: middle;
+}
+
+#mimsobre {
+
+    width: auto;
+    height: 500px;
+}
+
+#mimimg {
+    width: 500;
+    margin-left: 250px;
+}
